@@ -17,3 +17,11 @@ Chaque niveau de sévérité utilise un format de couleur CSS spécifique valid�
 - **Reset & Nettoyage CSS :** Neutralisation des styles, marges et puces (`list-style: none`) natifs de la balise `<ul>`.
 - **Mise en page Inline-Block :** Alignement horizontal fluide des pastilles de couleur circulaires (`border-radius: 50%`) à côté de leurs textes descriptifs respectifs via `display: inline-block` et `vertical-align: middle`.
 - **Harmonisation Dark Mode :** Intégration globale du composant sur un fond sombre (`#0f131a`) avec des typographies adaptées sans empattement (*sans-serif*) pour une lisibilité optimale.
+
+## Screenshot :
+
+![screenshot](image.png)
+
+## Live Demo
+
+https://cedricboucard.github.io/SIEM-Severity-Legend/
