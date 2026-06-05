@@ -1,0 +1,64 @@
+.boite-legende {
+    background-color: #161a22;
+    border : 1px solid #232936;
+    border-radius: 9px;
+    padding: 20px;
+    max-width: 500px;
+    margin: 20px 0;
+
+    list-style: none;
+    padding-left: 20px;
+}
+
+.item-severite {
+    margin:15px 0;
+}
+
+.pastille {
+    display: inline-block;
+    vertical-align: middle;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.item-severite p {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0;
+    color: #e1e7f0;
+}
+.severitee-critique .pastille {
+    background-color: #e74c3c;
+}
+.severitee-elevee .pastille {
+    background-color: rgb(243, 156, 18);
+}
+.severitee-moyen .pastille {
+    background-color: hsl(204, 70%, 53%);
+}
+.severitee-faible .pastille {
+    background-color: #2ecc71;
+}
+
+.item-severite p strong {
+    color: #e1e7f0;
+}
+
+/* 1. On applique le mode sombre à TOUTE la page */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #0f131a; /* Le bleu-noir profond de ta console SOC */
+    color: #e1e7f0;            /* Une couleur de texte claire par défaut */
+    margin: 0;
+    padding: 20px;
+}
+
+/* 2. On ajuste le titre pour qu'il brille sur le fond sombre */
+.legende-couleurs h2 {
+    color: #ffffff;            /* Blanc pur */
+    font-size: 1.6rem;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
